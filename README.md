@@ -1,7 +1,5 @@
 # PyTorch-Pose
 
-![screenshot](./docs/screenshot.png)
-
 You can find our project report at report.pdf
 
 
@@ -19,6 +17,8 @@ data/ - should contain the datasets
 pose/ - the model's code
 
 
+
+![screenshot](./docs/screenshot.png)
 
 PyTorch-Pose is a PyTorch implementation of the general pipeline for 2D single human pose estimation. The aim is to provide the interface of the training/inference/evaluation, and the dataloader with various data augmentation options for the most popular human pose databases (e.g., [the MPII human pose](http://human-pose.mpi-inf.mpg.de), [LSP](http://www.comp.leeds.ac.uk/mat4saj/lsp.html) and [FLIC](http://bensapp.github.io/flic-dataset.html)).
 
