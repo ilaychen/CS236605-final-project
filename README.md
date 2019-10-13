@@ -2,6 +2,24 @@
 
 ![screenshot](./docs/screenshot.png)
 
+You can find our project report at report.pdf
+
+
+CS236605 Porject
+
+Under pose/models/hourglass.py you can find our improvements.
+
+in order to run an experiment run one of our scripts for the src/ dir, for example - 
+sbatch -c 2 --gres=gpu:1 -p 236605 -o s2_exp.out -J s2_exp run_dec_2.sh
+
+notice that the MPII dataset must be located in /data/mpii/
+
+checkpoint/ - saves the model after each epoch when increasing accuracy
+data/ - should contain the datasets
+pose/ - the model's code
+
+
+
 PyTorch-Pose is a PyTorch implementation of the general pipeline for 2D single human pose estimation. The aim is to provide the interface of the training/inference/evaluation, and the dataloader with various data augmentation options for the most popular human pose databases (e.g., [the MPII human pose](http://human-pose.mpi-inf.mpg.de), [LSP](http://www.comp.leeds.ac.uk/mat4saj/lsp.html) and [FLIC](http://bensapp.github.io/flic-dataset.html)).
 
 Some codes for data preparation and augmentation are brought from the [Stacked hourglass network](https://github.com/anewell/pose-hg-train). Thanks to the original author.
