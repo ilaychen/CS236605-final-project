@@ -3,8 +3,6 @@
 You can find our project report at report.pdf
 
 
-CS236605 Porject
-
 Under pose/models/hourglass.py you can find our improvements.
 
 To run an experiment run: 
