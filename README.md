@@ -1,4 +1,4 @@
-# PyTorch-Pose
+# CS236605 Final Project
 
 You can find our project report at report.pdf
 
