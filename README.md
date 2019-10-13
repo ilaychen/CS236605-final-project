@@ -7,11 +7,11 @@ CS236605 Porject
 
 Under pose/models/hourglass.py you can find our improvements.
 
-in order to run an experiment run one of our scripts for the src/ dir, for example:
+To run an experiment run: 
 ```
 python ./example/main.py --dataset mpii --arch hg --stack 1 --block 1 --features 256 --checkpoint checkpoint/s1/ 
 ```
-OR
+Or one of our scripts for the src/ dir, for example:
 ```
 sbatch -c 2 --gres=gpu:1 -p 236605 -o s2_exp.out -J s2_exp run_dec_2.sh
 ```
