@@ -7,7 +7,7 @@ CS236605 Porject
 
 Under pose/models/hourglass.py you can find our improvements.
 
-in order to run an experiment run one of our scripts for the src/ dir, for example - 
+in order to run an experiment run one of our scripts for the src/ dir, for example: 
 sbatch -c 2 --gres=gpu:1 -p 236605 -o s2_exp.out -J s2_exp run_dec_2.sh
 
 notice that the MPII dataset must be located in /data/mpii/
