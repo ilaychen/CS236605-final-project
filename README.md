@@ -5,13 +5,9 @@ You can find our project report at report.pdf
 
 Under pose/models/hourglass.py you can find our improvements.
 
-To run an experiment run: 
+To run an experiment: 
 ```
 python ./example/main.py --dataset mpii --arch hg --stack 1 --block 1 --features 256 --checkpoint checkpoint/s1/ 
-```
-Or one of our scripts for the src/ dir, for example:
-```
-sbatch -c 2 --gres=gpu:1 -p 236605 -o s2_exp.out -J s2_exp run_dec_2.sh
 ```
 
 notice that the MPII dataset must be located in /data/mpii/
