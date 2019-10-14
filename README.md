@@ -25,7 +25,7 @@ pose/ - the model's code
 ![screenshot](./docs/screenshot.png)
 
 ## Installation
-PyTorch (>= 0.4.1): Please follow the [installation instruction of PyTorch](http://pytorch.org/). Note that the code is developed with Python2 and has not been tested with Python3 yet.
+PyTorch (>= 0.4.1): Please follow the [installation instruction of PyTorch](http://pytorch.org/).
 
 Download annotation file:
     (MPII) Download [mpii_annotations.json](https://drive.google.com/open?id=1mQrH_yVHeB93rzCfyq5kC9ZYTwZeMsMm) and save it to `data/mpii`
